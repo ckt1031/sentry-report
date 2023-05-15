@@ -15,6 +15,7 @@
     "@ckt1031/eslint-config": "1.1.4",
     "@ckt1031/prettier-config": "1.1.4",
     "@ckt1031/tsconfig": "1.1.4",
+    "@types/node": "20.1.4",
     "eslint": "8.40.0",
     "prettier": "2.8.8",
     "typescript": "5.0.4",
