@@ -1,0 +1,25 @@
+{
+  "name": "sentry-report",
+  "scripts": {
+    "deploy": "vercel deploy --prod",
+    "format": "prettier --write .",
+    "lint": "eslint --fix .",
+    "start": "vercel dev",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@vercel/node": "2.14.2",
+    "zod": "3.21.4"
+  },
+  "devDependencies": {
+    "@ckt1031/eslint-config": "1.1.4",
+    "@ckt1031/prettier-config": "1.1.4",
+    "@ckt1031/tsconfig": "1.1.4",
+    "eslint": "8.40.0",
+    "prettier": "2.8.8",
+    "typescript": "5.0.4",
+    "vercel": "29.3.0"
+  },
+  "packageManager": "pnpm@8.5.1",
+  "prettier": "@ckt1031/prettier-config"
+}
