@@ -13,8 +13,8 @@ devDependencies:
     specifier: 1.1.6
     version: 1.1.6(eslint@8.40.0)(prettier@2.8.8)(tailwindcss@3.3.2)(typescript@5.0.4)
   '@ckt1031/prettier-config':
-    specifier: 1.1.5
-    version: 1.1.5(eslint@8.40.0)(prettier@2.8.8)
+    specifier: 1.1.6
+    version: 1.1.6(eslint@8.40.0)(prettier@2.8.8)
   '@ckt1031/tsconfig':
     specifier: 1.1.5
     version: 1.1.5(typescript@5.0.4)
@@ -1286,8 +1286,8 @@ packages:
       - tailwindcss
     dev: true
 
-  /@ckt1031/prettier-config@1.1.5(eslint@8.40.0)(prettier@2.8.8):
-    resolution: {integrity: sha512-E4qZ5qpyKUoNWHxyrcOMYy2O9twgaGhZC9A4rZz4r1sabosl7MX2+3P3rkl6VsHqeffVlRsltwtbzUdvfi8iyA==}
+  /@ckt1031/prettier-config@1.1.6(eslint@8.40.0)(prettier@2.8.8):
+    resolution: {integrity: sha512-JZdxElRC5x5pwUyvXldTg7XBFHCOFOGa7K51T3VU8Z5JD4gPUCCXTZ6tKCcDomiu7yvN54Ml5bl81vrZQlS0GA==}
     peerDependencies:
       prettier: 2.x
     dependencies:
@@ -1295,7 +1295,7 @@ packages:
       prettier-plugin-package-perfection: 1.1.0(eslint@8.40.0)
       prettier-plugin-prisma: 4.13.0(prettier@2.8.8)
       prettier-plugin-sort-json: 1.0.0(prettier@2.8.8)
-      prettier-plugin-tailwindcss: 0.2.8(prettier@2.8.8)
+      prettier-plugin-tailwindcss: 0.3.0(prettier@2.8.8)
       vitest: 0.31.0
     transitivePeerDependencies:
       - '@edge-runtime/vm'
@@ -1315,6 +1315,7 @@ packages:
       - prettier-plugin-css-order
       - prettier-plugin-import-sort
       - prettier-plugin-jsdoc
+      - prettier-plugin-marko
       - prettier-plugin-organize-attributes
       - prettier-plugin-organize-imports
       - prettier-plugin-style-order
@@ -2598,14 +2599,14 @@ packages:
     resolution: {integrity: sha512-x1FCFnFifvYDDzTaLII71vG5uvDwgtmDTEVWAxrgeiR8VjMONcCXJx7E+USjDtHlwFmt9MysbqgF9b9Vjr6w+w==}
     engines: {node: '>=4'}
     dependencies:
-      tslib: 2.5.0
+      tslib: 2.5.1
     dev: true
 
   /ast-types@0.15.2:
     resolution: {integrity: sha512-c27loCv9QkZinsa5ProX751khO9DJl/AcB5c2KNtA6NRvHKS0PgLfcftz72KVq504vB0Gku5s2kUZzDBvQWvHg==}
     engines: {node: '>=4'}
     dependencies:
-      tslib: 2.5.0
+      tslib: 2.5.1
     dev: true
 
   /astring@1.8.4:
@@ -6603,7 +6604,7 @@ packages:
       eslint: 8.40.0
       prettier: 2.8.8
       prettier-package-json: 2.6.0
-      tslib: 2.5.0
+      tslib: 2.5.1
     dev: true
 
   /prettier-plugin-prisma@4.13.0(prettier@2.8.8):
@@ -6626,8 +6627,8 @@ packages:
       prettier: 2.8.8
     dev: true
 
-  /prettier-plugin-tailwindcss@0.2.8(prettier@2.8.8):
-    resolution: {integrity: sha512-KgPcEnJeIijlMjsA6WwYgRs5rh3/q76oInqtMXBA/EMcamrcYJpyhtRhyX1ayT9hnHlHTuO8sIifHF10WuSDKg==}
+  /prettier-plugin-tailwindcss@0.3.0(prettier@2.8.8):
+    resolution: {integrity: sha512-009/Xqdy7UmkcTBpwlq7jsViDqXAYSOMLDrHAdTMlVZOrKfM2o9Ci7EMWTMZ7SkKBFTG04UM9F9iM2+4i6boDA==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
@@ -6640,6 +6641,7 @@ packages:
       prettier-plugin-css-order: '*'
       prettier-plugin-import-sort: '*'
       prettier-plugin-jsdoc: '*'
+      prettier-plugin-marko: '*'
       prettier-plugin-organize-attributes: '*'
       prettier-plugin-organize-imports: '*'
       prettier-plugin-style-order: '*'
@@ -6663,6 +6665,8 @@ packages:
       prettier-plugin-import-sort:
         optional: true
       prettier-plugin-jsdoc:
+        optional: true
+      prettier-plugin-marko:
         optional: true
       prettier-plugin-organize-attributes:
         optional: true
@@ -6910,7 +6914,7 @@ packages:
       ast-types: 0.15.2
       esprima: 4.0.1
       source-map: 0.6.1
-      tslib: 2.5.0
+      tslib: 2.5.1
     dev: true
 
   /refa@0.11.0:
@@ -7113,7 +7117,7 @@ packages:
   /rxjs@7.8.1:
     resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
     dependencies:
-      tslib: 2.5.0
+      tslib: 2.5.1
     dev: true
 
   /sade@1.8.1:
@@ -7751,6 +7755,10 @@ packages:
 
   /tslib@2.5.0:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
+    dev: true
+
+  /tslib@2.5.1:
+    resolution: {integrity: sha512-KaI6gPil5m9vF7DKaoXxx1ia9fxS4qG5YveErRRVknPDXXriu5M8h48YRjB6h5ZUOKuAKlSJYb0GaDe8I39fRw==}
     dev: true
 
   /tsutils@3.21.0(typescript@5.0.4):
