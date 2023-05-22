@@ -31,8 +31,8 @@ devDependencies:
     specifier: 5.0.4
     version: 5.0.4
   vercel:
-    specifier: 29.3.6
-    version: 29.3.6(@types/node@20.1.4)
+    specifier: 29.4.0
+    version: 29.4.0(@types/node@20.1.4)
 
 packages:
 
@@ -3790,7 +3790,7 @@ packages:
     dependencies:
       '@typescript-eslint/utils': 5.59.6(eslint@8.41.0)(typescript@5.0.4)
       eslint: 8.41.0
-      tslib: 2.5.1
+      tslib: 2.5.2
       tsutils: 3.21.0(typescript@5.0.4)
       typescript: 5.0.4
     transitivePeerDependencies:
@@ -7752,10 +7752,6 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tslib@2.5.1:
-    resolution: {integrity: sha512-KaI6gPil5m9vF7DKaoXxx1ia9fxS4qG5YveErRRVknPDXXriu5M8h48YRjB6h5ZUOKuAKlSJYb0GaDe8I39fRw==}
-    dev: true
-
   /tslib@2.5.2:
     resolution: {integrity: sha512-5svOrSA2w3iGFDs1HibEVBGbDrAY82bFQ3HZ3ixB+88nsbsWQoKqDRb5UBYAUPEzbBn6dAp5gRNXglySbx1MlA==}
     dev: true
@@ -8018,8 +8014,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vercel@29.3.6(@types/node@20.1.4):
-    resolution: {integrity: sha512-fwld21d9WoCTUJcbyTWvq0c9VchUCJ2qs0kaczcYo9Vs8+ORnxC8FFgbysR2f7B4iwL2hUxTMEWkQGV2782LjQ==}
+  /vercel@29.4.0(@types/node@20.1.4):
+    resolution: {integrity: sha512-sVfg87dhF3q6Nhrr5zv2oaOU1zQQd+MlsjhdNkB9MfrQyXqluAdHKiNz0+g/+wJeh/y7sUhWk2/XJb5CDlF70w==}
     engines: {node: '>= 14'}
     hasBin: true
     requiresBuild: true
