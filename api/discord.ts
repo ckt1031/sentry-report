@@ -1,6 +1,8 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { z } from 'zod';
 
+import { validateResaponse } from '../utils/auth.js';
+
 // Sentry Input Request Zod Schema
 const SentryInputSchema = z.object({
   url: z.string(),
@@ -23,6 +25,11 @@ const EnvSchema = z.object({
 const env = EnvSchema.parse(process.env);
 
 export default async (req: VercelRequest, res: VercelResponse) => {
+  const isAuthOk = validateResaponse(req, res);
+
+  // Check if the authorization is valid
+  if (!isAuthOk) return;
+
   // Check if the request is a POST request
   if (req.method !== 'POST') {
     res.status(405).json({ error: 'Method not allowed, please use POST' });

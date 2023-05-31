@@ -1,5 +1,6 @@
 {
   "name": "sentry-report",
+  "type": "module",
   "scripts": {
     "deploy": "vercel deploy --prod",
     "format": "prettier --write .",
@@ -15,7 +16,7 @@
     "@ckt1031/eslint-config": "1.1.6",
     "@ckt1031/prettier-config": "1.1.6",
     "@ckt1031/tsconfig": "1.1.6",
-    "@types/node": "20.1.4",
+    "@types/node": "20.2.5",
     "eslint": "8.41.0",
     "prettier": "2.8.8",
     "typescript": "5.0.4",

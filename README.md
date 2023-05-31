@@ -24,6 +24,14 @@ This project provides a Sentry report webhook API implemented as a serverless fu
 
 ## Usage
 
+### Authentication
+
+To prevent unauthorized access to the webhook API, you need to provide a valid API key in the `key` params of the request. Set the following environment variable:
+
+- `AUTH_KEY`: The API key to authenticate requests.
+
+Example: `example.com/api/discord?key=API_KEY`
+
 ### Discord Webhook Integration
 
 To send error reports to a Discord channel, you need to provide a valid Discord webhook URL and mention a role for notifications. Set the following environment variables:

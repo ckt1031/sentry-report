@@ -4,5 +4,5 @@
   },
   "exclude": ["node_modules", "dist"],
   "extends": "@ckt1031/tsconfig/base.json",
-  "include": ["api", "package.json"]
+  "include": ["api", "utils", "package.json"]
 }
