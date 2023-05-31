@@ -1,6 +1,5 @@
 {
   "name": "sentry-report",
-  "type": "module",
   "scripts": {
     "deploy": "vercel deploy --prod",
     "format": "prettier --write .",
