@@ -21,6 +21,6 @@
     "typescript": "5.0.4",
     "vercel": "30.0.0"
   },
-  "packageManager": "pnpm@8.5.1",
+  "packageManager": "pnpm@8.6.0",
   "prettier": "@ckt1031/prettier-config"
 }
