@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@vercel/node':
-    specifier: 2.14.3
-    version: 2.14.3
+    specifier: 2.14.4
+    version: 2.14.4
   zod:
     specifier: 3.21.4
     version: 3.21.4
@@ -2445,9 +2445,19 @@ packages:
 
   /@vercel/build-utils@6.7.3:
     resolution: {integrity: sha512-BCu5zX8MhzXAvd7X1Hn6b8blSTzKyY7JAEAdT5+FcB8e5fTs4bIQmYNc9JMeCqUgtisSpJvDAt69OLYP/aqEKw==}
+    dev: true
+
+  /@vercel/build-utils@6.7.4:
+    resolution: {integrity: sha512-xpeGfnDFMGr33Bod0a5X4ODQvCELh0Pf+5hG6Z2lhAa7I1USFXvCp5jlgEWQSccx07Ff8V6SgBXtedCJbK9J/A==}
+    dev: false
+
+  /@vercel/error-utils@1.0.10:
+    resolution: {integrity: sha512-nsKy2sy+pjUWyKI1V/XXKspVzHMYgSalmj5+EsKWFXZbnNZicqxNtMR94J8Hs7SB4TQxh0s4KhczJtL59AVGMg==}
+    dev: false
 
   /@vercel/error-utils@1.0.8:
     resolution: {integrity: sha512-s+f7jP2oH1koICbQ8e3K9hOpOeUct7rbCnF9qsNwXemq850wAh2e90tp9R6oYBM0BNpiLRRm+oG5zD2sCIm3HQ==}
+    dev: true
 
   /@vercel/gatsby-plugin-vercel-analytics@1.0.10:
     resolution: {integrity: sha512-v329WHdtIce+y7oAmaWRvEx59Xfo0FxlQqK4BJG0u6VWYoKWPaflohDAiehIZf/YHCRVb59ZxnzmMOcm/LR8YQ==}
@@ -2532,6 +2542,34 @@ packages:
       - bufferutil
       - encoding
       - utf-8-validate
+    dev: true
+
+  /@vercel/node@2.14.4:
+    resolution: {integrity: sha512-DhwOpcOzFzzqzTdosEymSIg7kE8XtOJfuDfHWy4rfOcc+YB8DcgxiHBNa/sVFwRkQVXdRQ0Uv6MunyuVr1Zqhw==}
+    dependencies:
+      '@edge-runtime/vm': 2.0.0
+      '@types/node': 14.18.33
+      '@types/node-fetch': 2.6.3
+      '@vercel/build-utils': 6.7.4
+      '@vercel/error-utils': 1.0.10
+      '@vercel/static-config': 2.0.17
+      async-listen: 3.0.0
+      edge-runtime: 2.1.4
+      esbuild: 0.14.47
+      exit-hook: 2.2.1
+      node-fetch: 2.6.9
+      path-to-regexp: 6.2.1
+      ts-morph: 12.0.0
+      ts-node: 10.9.1(@types/node@14.18.33)(typescript@4.9.5)
+      typescript: 4.9.5
+      ws: 8.13.0
+    transitivePeerDependencies:
+      - '@swc/core'
+      - '@swc/wasm'
+      - bufferutil
+      - encoding
+      - utf-8-validate
+    dev: false
 
   /@vercel/python@3.1.60:
     resolution: {integrity: sha512-1aYinyTfejS8Us+sOum+RQPYcre0vF3XoL7ohL170ZCcHA0l35qV0b1slGAmLt3pqaHKYy3g/nkzUhuR8XXIrQ==}
