@@ -8,7 +8,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@vercel/node": "2.15.0",
+    "@vercel/node": "2.15.1",
     "zod": "3.21.4"
   },
   "devDependencies": {
