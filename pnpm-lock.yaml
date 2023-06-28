@@ -35,8 +35,8 @@ devDependencies:
     specifier: 5.1.5
     version: 5.1.5
   vercel:
-    specifier: 31.0.0
-    version: 31.0.0(@types/node@20.3.2)
+    specifier: 31.0.1
+    version: 31.0.1(@types/node@20.3.2)
 
 packages:
 
@@ -2432,8 +2432,8 @@ packages:
     resolution: {integrity: sha512-1rzFB664G6Yzp7j4ezW9hvVjqnaU2BhyUdhchbsxtRuxkMpGgPBZKhjzRQHFvlmkz37XLC658T5Nb1P91b4sBw==}
     dev: true
 
-  /@vercel/next@3.8.7:
-    resolution: {integrity: sha512-hwXlIhkICTIPts7JUjY6Edf6xmWFtSdOKrtWVdFzqUM1jYHJftJyaokosUNb5Ty5QLwuzKNlJS/LAFAxcgJi6A==}
+  /@vercel/next@3.8.8:
+    resolution: {integrity: sha512-h/TcVnrjnRrxkgTod80Wpy9Lo2k+DCpsNtRX+G0tJ8q8/WxMucQQ0dLv0t3J5vwmypowPzYzK5kKSfrewQVMxg==}
     dev: true
 
   /@vercel/nft@0.22.5:
@@ -4087,7 +4087,7 @@ packages:
     dependencies:
       '@typescript-eslint/utils': 5.60.0(eslint@8.43.0)(typescript@5.1.5)
       eslint: 8.43.0
-      tslib: 2.5.3
+      tslib: 2.6.0
       tsutils: 3.21.0(typescript@5.1.5)
       typescript: 5.1.5
     transitivePeerDependencies:
@@ -8005,10 +8005,6 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tslib@2.5.3:
-    resolution: {integrity: sha512-mSxlJJwl3BMEQCUNnxXBU9jP4JBktcEGhURcPR6VQVlnP0FdDEsIaz0C35dXNGLyRfrATNofF0F5p2KPxQgB+w==}
-    dev: true
-
   /tslib@2.6.0:
     resolution: {integrity: sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==}
     dev: true
@@ -8271,8 +8267,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vercel@31.0.0(@types/node@20.3.2):
-    resolution: {integrity: sha512-OT1THaOpcKVfoiqzmf+T3h/CvheU0K+MN7Im4uRZinKEW3w21s0559lX1+G15KxkecZTPn+iXqURhTQXY5ZnHA==}
+  /vercel@31.0.1(@types/node@20.3.2):
+    resolution: {integrity: sha512-Tf6PsIseRtAw/PETRfBdGqnbG/el1g0prwaKCXm6Dq5CcKRoya3ntT2E38fHE9pXIPDqE1XdTn9F1crKm8sKAQ==}
     engines: {node: '>= 14'}
     hasBin: true
     requiresBuild: true
@@ -8280,7 +8276,7 @@ packages:
       '@vercel/build-utils': 6.8.0
       '@vercel/go': 2.5.1
       '@vercel/hydrogen': 0.0.64
-      '@vercel/next': 3.8.7
+      '@vercel/next': 3.8.8
       '@vercel/node': 2.15.3
       '@vercel/python': 3.1.60
       '@vercel/redwood': 1.1.15
