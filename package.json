@@ -19,7 +19,7 @@
     "eslint": "8.43.0",
     "prettier": "2.8.8",
     "typescript": "5.1.5",
-    "vercel": "30.2.3"
+    "vercel": "31.0.0"
   },
   "packageManager": "pnpm@8.6.5",
   "prettier": "@ckt1031/prettier-config"
